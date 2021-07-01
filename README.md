@@ -2,7 +2,7 @@
 
 In Conway's Game of Life there are cellular automaton structures called methuselahs, which are simple pentomino block arrangements that seed intricate and long-lived structures. Methuselahs are self-contained examples of how complex structures can arise from very simple initial rules.
 
-My take on the study of Game of Life methuselahs involves the addition of a logarithmic colormap to track their path or fingerprint of spread. Colormap intensity is a proxy for the age of a given cellular automaton at that particular location.
+My take on the study of Game of Life methuselahs involves the addition of a logarithmic colormap to track their path or fingerprint of spread. Colormap intensity is a proxy for the age of a given cellular automaton at that particular location. The GIF version of the code is the same as the base visualization, but saves a `.gif` file (examples shown below). Array conversion into vectors allows for calculations of the minimum and maximum horizontal and vertical limits, so the camera is always focused on the action.
 
 ### Glider
 
