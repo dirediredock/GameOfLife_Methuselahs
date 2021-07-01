@@ -4,19 +4,19 @@ In Conway's Game of Life there are cellular automaton structures called methusel
 
 My take on the study of Game of Life methuselahs involves the addition of a logarithmic colormap to track their path or fingerprint of spread. Colormap intensity is a proxy for the age of a given cellular automaton at that particular location. The GIF version of the code is the same as the base visualization, but saves a `.gif` file (examples shown below). Array conversion into vectors allows for calculations of the minimum and maximum horizontal and vertical limits, so the camera is always focused on the action.
 
-### Glider
-
-The first example is the well-known Glider, which is a simple spaceship-like pentomino that, once constructed, travels outwards diagonally towards infinity.
-
-![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/Glider.png)
-<img src="https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheGliderMethuselah.gif" width="100%">
-
 ### rPentomino
 
-The second example is the R-Pentomino methuselah, the first discovered, and the structure that gave rise to the first observed Glider.
+The first example is the R-Pentomino, the first methuselah discovered, and the structure that gave rise to the first observed Glider.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/rPentomino.png)
 <img src="https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/ThePentominoMethuselahSmall.gif" width="100%">
+
+### Glider
+
+The second example is the now well-known Glider, which is a simple spaceship-like pentomino that, once constructed, travels outwards diagonally towards infinity.
+
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/Glider.png)
+<img src="https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheGliderMethuselah.gif" width="100%">
 
 ### Acorn
 
