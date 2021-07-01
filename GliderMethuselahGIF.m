@@ -3,23 +3,20 @@ close all; clear; clc;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-iterations=1000;
+iterations=400;
 sides=800;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %{
-    Acorn=zeros(5,9);
+    A=zeros(5,5);
 
-    Acorn(2,3)=1;
-    Acorn(3,5)=1;
-    Acorn(4,2:3)=1;
-    Acorn(4,6:8)=1;
+    A(2:3,3)=1;
+    A(3:4,2)=1;
+    A(4,4)=1;
 
     figure('Position',[120,60,1420,780],'Color','k'); hold on;
-    imagesc(Acorn); shading flat; colormap(gray);
-            [Y,X]=find(Acorn);
-            scatter(X,Y,600,'c','filled');
+    imagesc(A); shading flat; colormap(gray);
     axis equal; axis off;
 %}
 
@@ -27,12 +24,11 @@ sides=800;
 
 Main=zeros(sides,sides);
 
-Main(2+(sides/2),3+(sides/2))=1;
-Main(3+(sides/2),5+(sides/2))=1;
-Main(4+(sides/2),2+(sides/2):3+(sides/2))=1;
-Main(4+(sides/2),6+(sides/2):8+(sides/2))=1;
+    Main(2+(sides/2):3+(sides/2),3+(sides/2))=1;
+    Main(3+(sides/2):4+(sides/2),2+(sides/2))=1;
+    Main(4+(sides/2),4+(sides/2))=1;
 
-Acorn=Main;
+Glider=Main;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -75,7 +71,7 @@ for idx=1:nImages
         imagesc(logsum); shading flat; colormap(inferno);
         axis equal; axis off; hold on;
         
-        [Y,X]=find(Acorn);
+        [Y,X]=find(Glider);
         scatter(X,Y,10,'c','filled');
         
         xlim([nanmin(cloud(:,1))-1,nanmax(cloud(:,1))+1]);
@@ -101,7 +97,7 @@ end
 
 close;
 
-filename='TheAcornMethuselahSmall.gif';
+filename='TheGliderMethuselah.gif';
 
 for GIFidx=1:nImages
     

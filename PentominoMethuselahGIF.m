@@ -3,7 +3,7 @@ close all; clear; clc;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-iterations=2000;
+iterations=1000;
 sides=800;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,7 +34,7 @@ rPentomino=Main;
 
 nImages=iterations;
 
-fig=figure('Position',[120,60,sides,sides]);
+fig=figure('Position',[120,60,sides/4,sides/4]);
 
 for idx=1:nImages
     
@@ -72,7 +72,7 @@ for idx=1:nImages
         axis equal; axis off; hold on;
         
         [Y,X]=find(rPentomino);
-        scatter(X,Y,40,'c','filled');
+        scatter(X,Y,10,'c','filled');
         
         xlim([nanmin(cloud(:,1))-1,nanmax(cloud(:,1))+1]);
         ylim([nanmin(cloud(:,2))-1,nanmax(cloud(:,2))+1]);
@@ -97,7 +97,7 @@ end
 
 close;
 
-filename='ThePentominoMethuselah.gif';
+filename='ThePentominoMethuselahSmall.gif';
 
 for GIFidx=1:nImages
     
