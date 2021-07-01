@@ -97,7 +97,7 @@ end
 
 close;
 
-filename='ThePentominoMethuselahSmall.gif';
+filename='ThePentominoMethuselah.gif';
 
 for GIFidx=1:nImages
     
