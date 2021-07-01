@@ -6,6 +6,8 @@ My take on the study of Game of Life methuselahs involves the addition of a loga
 
 The first example is the well-known Glider, which is a simple spaceship-like pentomino that, once constructed, travels outwards diagonally towards infinity.
 
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/Glider.png)
+
 The second example is the R-Pentomino methuselah, the first discovered, and the structure that gave rise to the first observed Glider.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/rPentomino.png)
