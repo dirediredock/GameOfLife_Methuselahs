@@ -101,7 +101,7 @@ end
 
 close;
 
-filename='TheAcornMethuselahSmall.gif';
+filename='TheAcornMethuselah.gif';
 
 for GIFidx=1:nImages
     
