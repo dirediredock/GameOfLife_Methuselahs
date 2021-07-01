@@ -7,15 +7,19 @@ My take on the study of Game of Life methuselahs involves the addition of a loga
 The first example is the well-known Glider, which is a simple spaceship-like pentomino that, once constructed, travels outwards diagonally towards infinity.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/Glider.png)
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheGliderMethuselah.gif)
 
 The second example is the R-Pentomino methuselah, the first discovered, and the structure that gave rise to the first observed Glider.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/rPentomino.png)
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/ThePentominoMethuselah.gif)
 
 The third example is the Acorn methuselah, which is remarkably long-lived and generates many gliders despite its simple initial construction.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/Acorn.png)
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheAcornMethuselah.gif)
 
 The fourth example stems out of curiosity. In the S02E02 "White Bear" episode of Black Mirror, a pentomino pattern is introduced, shown below. It is not a methuselah, but surprisingly it does generate a symmetric automaton pattern.
 
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/WhiteBear.png)
+![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheWhiteBearMethuselah.gif)
