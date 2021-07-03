@@ -40,4 +40,4 @@ The fourth example stems out of curiosity. In the S02E02 "White Bear" episode of
 ![alt text](https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/WhiteBear.png)
 <img src="https://raw.githubusercontent.com/dirediredock/GameOfLife_Methuselahs/main/Images/TheWhiteBearMethuselah.gif" width="100%">
 
-<br>
+
